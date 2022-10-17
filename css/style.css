@@ -4,21 +4,21 @@
 */
 
 .mdl-layout__header-row {
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .mdl-layout__content {
-    padding-left: 15pt;
-    padding-right: 15pt;
-    padding-top: 15pt;
-  }
-  
-  /* Due to error in MDL : https://github.com/google/material-design-lite/issues/5281
+  align-items: center;
+  justify-content: center;
+}
+
+.mdl-layout__content {
+  padding-left: 15pt;
+  padding-right: 15pt;
+  padding-top: 15pt;
+}
+
+/* Due to error in MDL : https://github.com/google/material-design-lite/issues/5281
   */
-  .mdl-ripple {
-    background: #000;
-    opacity: 0.001;
+.mdl-ripple {
+  background: #000;
+  opacity: 0.001;
 }
 
 body {
