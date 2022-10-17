@@ -10,7 +10,7 @@
 function enterClicked() {
   // input
   const streetname = document.getElementById("streetname").value
-  const userAge = parseInt(document.getElementById("housenumber-entered").value)
+  const housenumber = parseInt(document.getElementById("housenumber-entered").value)
 
   // output
   document.getElementById("address").innerHTML =
