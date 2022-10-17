@@ -5,13 +5,13 @@
 // This file contains the JS functions for index.html
 
 /**
- * This function gets users first name and age and shows it back to user.
+ * This function gets users house number and street name and shows it back to user.
  */
 function enterClicked() {
   // input
-  const streetname = document.getElementById("streetname").value
-  const housenumber = parseInt(document.getElementById("number-entered").value)
+  const usersstreetname = document.getElementById("streetname").value
+  const userhousenumber = parseInt(document.getElementById("number-entered").value)
   // output
   document.getElementById("address").innerHTML =
-    "Your info is: " + streetname + ", housenumber " + housenumber + "."
+    "Your info is: " + usersstreetname + ", housenumber " + userhousenumber + "."
 }
