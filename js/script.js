@@ -7,13 +7,12 @@
 /**
  * This function gets users house number and street name and shows it back to user.
  */
-function enterClicked() {
+ function enterClicked() {
   // input
-  const usersstreetname = document.getElementById("streetname").value
-  const userhousenumber = parseInt(
-    document.getElementById("streetnumber").value
-  )
+  const street_name = document.getElementById("streetname").value
+  const house_number = parseInt(document.getElementById("streetnumber").value)
+
   // output
   document.getElementById("address").innerHTML =
-    "Your address is: " + userhousenumber + usersstreetname + "."
+    "Your info is: " + house_number + street_name + "."
 }
