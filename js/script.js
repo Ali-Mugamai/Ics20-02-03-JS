@@ -9,8 +9,7 @@
  */
 function enterClicked() {
   // input
-  const street_name = document.getElementById("streetname").value
-  const house_number = parseInt(document.getElementById("streetnumber").value)
+  const length = parseFloat(document.getElementById("length-of-pyramid").value)
 
   // output
   document.getElementById("address").innerHTML =
